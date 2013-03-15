@@ -19,7 +19,7 @@ class HelloWorldController extends \lithium\action\Controller {
 	}
 
 	public function to_json() {
-		return $this->render(array('json' => 'Hello World'));
+		return $this->render(array('json' => 'Hello World from Cloud9'));
 	}
 }
 
