@@ -15,7 +15,7 @@ class HelloWorldController extends \lithium\action\Controller {
 	}
 
 	public function to_string() {
-		return "Hello World";
+		return "Hello World from Cloud9";
 	}
 
 	public function to_json() {
